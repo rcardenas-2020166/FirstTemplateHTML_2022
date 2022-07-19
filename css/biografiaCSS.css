@@ -1,0 +1,267 @@
+
+/*SECCION DE MI BIOGRAFÍA*/
+
+/*-Uso de FLEXBOX para el maquetado web*/
+.mi-biografia .columna 
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+  
+.mi-biografia .columna .contenedor-informacion 
+{
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 42rem;
+    flex: 1 1 42rem;
+}
+  
+.mi-biografia .columna .contenedor-informacion h1 
+{
+    font-size: 3rem;
+    color: #fff;
+    text-transform: uppercase;
+    padding-bottom: 1rem;
+}
+  
+.mi-biografia .columna .contenedor-informacion .box-container 
+{
+    padding: 1rem 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+  
+.mi-biografia .columna .contenedor-informacion .box-container .box 
+{
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 20rem;
+    flex: 1 1 20rem;
+}
+  
+.mi-biografia .columna .contenedor-informacion .box-container .box h3 
+{
+    font-size: 1.7rem;
+    color: #fff;
+    padding: 1rem 0;
+    font-weight: normal;
+}
+  
+.mi-biografia .columna .contenedor-informacion .box-container .box h3 span 
+{
+    color: #aaa;
+    font-weight: lighter;
+}
+  
+.mi-biografia .columna .count-container 
+{
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 42rem;
+    flex: 1 1 42rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+  
+.mi-biografia .columna .count-container .box 
+{
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 20rem;
+    flex: 1 1 20rem;
+    padding: 3rem 4rem;
+    border-radius: .5rem;
+    background: #1a1a1a;
+    -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.7);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.7);
+}
+  
+.mi-biografia .columna .count-container .box h3 
+{
+    font-size: 5rem;
+    color: #8E44AD;
+}
+  
+.mi-biografia .columna .count-container .box p 
+{
+    font-size: 2rem;
+    color: #aaa;
+}
+
+
+/*SECCIÓN DE MIS HABILIDADES*/
+
+/*-Uso de FLEXBOX y GRID para el maquetado web*/
+.mis-habilidades .box-container 
+{
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(16rem, 1fr))[auto-fit];
+    grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+    gap: 1.5rem;
+}
+  
+.mis-habilidades .box-container .box 
+{
+    padding: 2rem;
+    text-align: center;
+    -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.7);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.7);
+    border-radius: .5rem;
+    background: #1a1a1a;
+}
+  
+.mis-habilidades .box-container .box:hover 
+{
+    background: #fff;
+}
+  
+.mis-habilidades .box-container .box:hover h3 
+{
+    color: #0d0d0d;
+}
+ 
+/*REDIMENSIÓN DE LAS IMÁGENES*/
+.mis-habilidades .box-container .box img 
+{
+    height: 7rem;
+    margin-bottom: 1rem;
+}
+  
+.mis-habilidades .box-container .box h3 
+{
+    color: #fff;
+    font-size: 1.7rem;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+  
+.mi-educacion .box-container 
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+
+/*SECCIÓN DE MI EDUCACIÓN*/
+
+.mi-educacion .box-container .box 
+{
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 40rem;
+    flex: 1 1 40rem;
+    margin-left: 2rem;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 3.5rem;
+    padding-bottom: 3rem;
+    border-left: 0.1rem solid #aaa;
+    position: relative;
+}
+  
+.mi-educacion .box-container .box i 
+{
+    height: 4.5rem;
+    width: 4.5rem;
+    line-height: 4.5rem;
+    font-size: 1.7rem;
+    border-radius: 50%;
+    background: #8E44AD;
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    top: -1rem;
+    left: -2.5rem;
+}
+  
+.mi-educacion .box-container .box span 
+{
+    font-size: 1.7rem;
+    color: #fff;
+    border-radius: 5rem;
+    padding: .5rem 1.5rem;
+    background: #1a1a1a;
+}
+  
+.mi-educacion .box-container .box h3 
+{
+    font-size: 2rem;
+    padding: 1rem 0;
+    color: #fff;
+    padding-top: 3rem;
+    font-weight: normal;
+}
+  
+.mi-educacion .box-container .box p 
+{
+    font-size: 1.5rem;
+    color: #aaa;
+    line-height: 2;
+}
+
+
+/* SECCION QUE ESPERO DE KINAL */
+
+.kinal
+{
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    gap: 4rem;
+    min-height: calc(30vh - 7rem);
+}
+  
+.kinal .imagen 
+{
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 42rem;
+    flex: 1 1 42rem;
+    text-align: center;
+}
+  
+.kinal .imagen img
+{
+    height: 50rem;
+    width: 50rem;
+    border-radius: 10% 10% 10% 10% / 10% 10% 10% 10%;
+}
+  
+.kinal .contenedor 
+{
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 42rem;
+    flex: 1 1 42rem;
+}
+  
+.kinal .contenedor h3 
+{
+    color: #fff;
+    font-size: 4rem;
+    padding-bottom: .5rem;
+}
+  
+.kinal .contenedor p 
+{
+    font-size: 1.5rem;
+    color: #aaa;
+    padding: 1rem 0;
+    line-height: 2;
+    text-align: justify;
+}
+ 

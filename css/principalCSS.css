@@ -1,0 +1,149 @@
+
+/*Importando CSS*/
+
+@import url(animacionCargaCSS.css);
+@import url(indexCSS.css);
+@import url(biografiaCSS.css);
+@import url(gustosCSS.css);
+
+/*Estilos Generales*/
+
+* 
+{
+    font-family: 'Century Gothic';
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+}
+  
+html 
+{
+    font-size: 62.5%;
+    overflow-x: hidden;
+} 
+
+
+/*Estilos del Scrollbar*/
+
+html::-webkit-scrollbar 
+{
+    width: 1rem;
+}
+  
+html::-webkit-scrollbar-track 
+{
+    background: #0d0d0d;
+}
+  
+html::-webkit-scrollbar-thumb 
+{
+    background: #8E44AD;
+    border-radius: 5rem;
+}
+
+
+/*Estilos de elementos globales*/
+
+body 
+{
+    background: #0d0d0d;
+    padding-bottom: 6.5rem;
+}
+  
+section 
+{
+    padding: 5rem 9%;
+}
+  
+.titulos 
+{
+    text-align: center;
+    font-size: 6vw;
+    color: #FFFFFF;
+    margin-bottom: 3rem;
+    text-transform: uppercase;
+}
+  
+.titulos span 
+{
+    text-transform: uppercase;
+    color: #8E44AD;
+}
+
+
+/*RESPONSIVE*/
+
+@media (max-width: 1200px) 
+{
+    html 
+    {
+      font-size: 55%;
+    }
+    section 
+    {
+      padding: 3rem 2rem;
+    }
+}
+  
+@media (max-width: 768px) 
+{
+    .titulos 
+    {
+      font-size: 12vw;
+    }
+
+    .navbar a i 
+    {
+      padding: 0;
+    }
+
+    .navbar a span 
+    {
+      display: none;
+    }
+
+    .navbar a:hover 
+    {
+      padding-bottom: 2rem;
+    }
+
+    .index 
+    {
+      text-align: center;
+      gap: 2rem;
+    }
+
+    .index .imagen img 
+    {
+      height: 30rem;
+      width: 30rem;
+    }
+
+    .index .contenedor h3 
+    {
+      font-size: 3rem;
+    }
+
+    .index .contenedor span 
+    {
+      font-size: 2.5rem;
+    }
+
+    .contact .row form .inputBox input 
+    {
+      width: 100%;
+      margin-bottom: 1rem;
+    }
+}
+  
+@media (max-width: 450px) 
+{
+    html 
+    {
+      font-size: 50%;
+    }
+}

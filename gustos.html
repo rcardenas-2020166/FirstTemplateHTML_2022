@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/icons/personal.ico" type="image/x-icon">
+    <title>Gustos | Rodrigo Cárdenas</title>
+
+   <!-- FONT AWESOME ICONS -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+   <!-- HOJA DE ESTILOS  -->
+   <link rel="stylesheet" href="css/principalCSS.css" type="text/css">
+
+</head>
+
+    
+<body>
+
+    <!-- Contenedor Animacion de Carga -->
+    <div id="contenedor-carga">
+        <div id="carga"></div>
+    </div>
+
+
+    <!-- Creación del NavBar MENÚ  -->
+
+    <nav class="navbar">
+        <a href="index.html"> <i class="fas fa-home"></i> <span>Inicio</span> </a>
+        <a href="gustos.html"> <i class="fas fa-futbol"></i> <span>Mis Gustos</span> </a>
+        <a href="biografia.html"> <i class="fas fa-user"></i> <span>Mi Biografía</span> </a>
+        <a href="kinal.html"> <i class="fas fa-globe"></i> <span>Rediseño Web</span> </a>
+    </nav>
+
+
+    <section class="mis-gustos">
+
+        <h1 class="titulos"> <span>MIS</span> GUSTOS</h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images/gustos/programar.jpg" alt="programacion">
+                <div class="content">
+                    <h3>LA PROGRAMACIÓN</h3>
+                    <p>Una de las cosas que más me gusta hacer es programar, esta es la razón por 
+                        la cual tomé la decisión de cambiarme de carrera. Disfruto resolver los
+                        problemas lógicos y visuales de mis proyectos. Espero seguir adquiriendo
+                        conocimientos en más lenguajes de programación.
+                    </p>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/gustos/videojuegos.jpg" alt="videojuegos">
+                <div class="content">
+                    <h3>LOS VIDEOJUEGOS</h3>
+                    <p>Mi pasatiempo favorito es jugar videojuegos, me gusta mucho
+                        desestresarme un poco ganando partidas de mi juego favorito
+                        el cual es Brawl Stars.
+                    </p>
+                </div>
+            </div>
+        
+            <div class="box">
+                <img src="images/gustos/familia.jpg" alt="familia">
+                <div class="content">
+                    <h3>PASAR TIEMPO EN FAMILIA</h3>
+                    <p>Me encanta pasar tiempo con mi familia aunque dados algunos problemas
+                        personales ya no es posible, pero espero en algún momento poder revivir 
+                        esos hermosos momentos. 
+                    </p>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/gustos/sneakers.jpg" alt="sneakers zapatos tennnis">
+                <div class="content">
+                    <h3>LOS SNEAKERS</h3>
+                    <p>Este quizás sea mi gusto favorito, me encantan los Sneakers y de igual forma me gusta
+                        coleccionarlos. Me siento muy satisfecho cuando logró ahorrar dinero para comprarme
+                        el par de sneakers que me guste en ese momento.
+                    </p>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/gustos/desarrolloweb.jpg" alt="desarrollo web">
+                <div class="content">
+                    <h3>EL DESARROLLO WEB</h3>
+                    <p>Me gusta mucho desarrollar aplicaciones y páginas web, este 
+                        gusto me ha llevado a tomar cursos de desarrollo web y de igual
+                        forma adquirir conocimiento de manera autodidacta investigando y
+                        practicando con códigos propios y de otras personas.
+                    </p>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/gustos/freestyle.jpg" alt="freestyle">
+                <div class="content">
+                    <h3>Batallas de Freestyle</h3>
+                    <p>Este es otro de mis gustos favoritos, me gusta mucho ver y escuchar
+                        como los participantes utilizan su inteligencia y logran rimar
+                        de manera inmediata con fluidez y sentido.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+        
+    </section>
+
+    <!--SCRIPT ANIMACION DE CARGA-->
+
+    <script>
+        window.onload = function()
+        {
+                var contenedor = document.getElementById('contenedor-carga');
+                contenedor.style.visibility = 'hidden';
+                contenedor.style.opacity = '0';
+        }
+    </script>
+
+</body>
+</html>

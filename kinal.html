@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rediseño Web</title>
+    <link rel="shortcut icon" href="images/icons/kinal.ico" type="image/x-icon">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+
+   <!-- FONT AWESOME ICONS -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+   <!-- HOJA DE ESTILOS  -->
+   <link rel="stylesheet" href="css/kinalCSS.css" type="text/css">
+   <!-- HOJA DE ESTILOS  -->
+   <link rel="stylesheet" href="css/sliderCSS.css" type="text/css">
+
+   <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script>
+        $(".hide").on('click', function() {
+        $("nav ul").toggle('slow');
+        })
+    </script> 
+
+</head>
+
+    <!--CREACION DE NAVBAR - MENÚ-->
+    
+    <nav class="navegacion">
+        
+        <ul class="menu">
+            <img src="images/rediseño/Fundacion KinalBlanco.webp" align="left" alt="Fundacion Kinal">
+
+			<li><a href="index.html">Inicio</a></li>
+            <li><a href="gustos.html">Mis Gustos</a></li>
+            <li><a href="biografia.html">Mi Biografía</a>
+            <li><a href="kinal.html">Rediseño Web</a>
+            <li><a href="#">Campus Virtual</a>
+            <li><a href="#">Tienda</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Donar</a></li>
+        </ul>
+        <div class="hide">
+          <i class="fa fa-bars" aria-hidden="true"></i> Menu
+        </div>
+    </nav>
+    
+    <body>
+
+        <!-- Contenedor Animacion de Carga -->
+        <div id="contenedor-carga">
+            <div id="carga"></div>
+        </div>
+    
+        <section class="contenido">
+            <div class="flexslider">
+                <ul class="slides">
+                    <li>
+                        <img src="images/rediseño/slider/slider1.webp" alt="Fundacion Kinal">
+                        <section class="flex-caption">
+                        </section>
+                    </li>
+                    <li>
+                        <img src="images/rediseño/slider/slider2.jpg" alt="Fundacion Kinal">
+                        <section class="flex-caption">
+                        </section>
+                    </li>
+                    <li>
+                        <img src="images/rediseño/slider/slider3.webp" alt="Fundacion Kinal">
+                        <section class="flex-caption">
+                        </section>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        
+        <section class="trabajo-bien-hecho">
+            <div class="kinal">
+                <div class="contenedor">
+                    <h3>El Trabajo bien hecho</h3>
+                    <p>Kinal es un Centro Educativo privado, no lucrativo, dirigido a la formación 
+                        técnica profesional de jóvenes y adultos, de beneficio colectivo y asistencia 
+                        social en favor de los sectores más necesitados de la comunidad.
+
+                        Nuestro valor fundamental es enseñar a realizar el trabajo bien hecho, que 
+                        sea la base de la superación de alumnos y el medio para servir a los demás.
+                    </p>
+                    <div class="capacitate">
+                    <img src="images/rediseño/llama.png" class="img" alt="llama Fundacion Kinal">
+                    <span class="barra">|</span>
+                    <span class="texto">CAPACÍTATE</span>
+                    </div>
+                        
+                </div>
+            </div>
+        </section>
+
+        <div class="title-cards">
+            <div class="centrado-texto"><h1>Servicios</h1></div> 
+        </div>
+
+        <div class="contenedor-card">
+            <div class="card-educacion">
+                <figure>
+                    <img src="images/rediseño/carrerastecnicas.webp" alt="carreras tecnicas">
+                </figure>
+                <div class="contenido-card">
+                    <h3>Carreras Técnicas</h3>
+                    <p>Contamos con más de 30 especialidades técnicas y tecnológicas que 
+                            pueden favorecer tu crecimiento y/o tu inserción laboral.</p><br><br>
+                    <button type="submit" class="ov-btn-slide-close">Descubre Más.</button>
+                </div>
+            </div>
+            <div class="card-educacion">
+                <figure>
+                    <img src="images/rediseño/peritostecnicos.webp" alt="peritos tecnicos">
+                </figure>
+                <div class="contenido-card">
+                    <h3>Peritos Técnicos</h3>
+                    <p>Se trabajan los programas técnicos y académicos con jóvenes entre 16 y 20 
+                        años para llevarlos a realizar una tarea calificada en alguna 
+                        especialidad técnica con tres años de duración. Al cabo de los tres 
+                        años el joven es apto para trabajar en el ramo técnico de la especialidad 
+                        que eligió estudiar; el título obtenido le permitirá ingresar a la universidad.</p>
+                    <button type="submit" class="ov-btn-slide-close">Descubre Más.</button>
+                </div>
+            </div>
+            <div class="card-educacion">
+                <figure>
+                    <img src="images/rediseño/educacionbasica.webp" alt="educacion basica">
+                </figure>
+                <div class="contenido-card">
+                    <h3>Educación Básica</h3>
+                    <p>Kinal ofrece su programa de Educación General Básica para todos aquellos 
+                        jóvenes que buscan una orientación técnica y excelencia académica.
+                    </p><br><br>
+                    <button type="submit" class="ov-btn-slide-close">Descubre Más.</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="contenedor-card">
+            <div class="card-educacion">
+                <figure>
+                    <img src="images/rediseño/programasnegocio.webp" alt="carreras tecnicas">
+                </figure>
+                <div class="contenido-card" alt="programas negocio">
+                    <h3>Programas para tu Negocio</h3>
+                    <p>Podemos diseñar conjuntamente el programa de formación 
+                        profesional que mejor se adapte a tus necesidades de capacitación.
+                    </p><br><br>
+                    <button type="submit" class="ov-btn-slide-close">Descubre Más.</button>
+                </div>
+            </div>
+            <div class="card-educacion">
+                <figure>
+                    <img src="images/rediseño/tecnicouniversitario.webp" alt="tecnicos universitarios">
+                </figure>
+                <div class="contenido-card">
+                    <h3>Técnicos Universitarios</h3>
+                    <p>Dirigido al fortalecimiento de mandos medios y especialmente aquellos que 
+                        han cursado una carrera técnica y desean continuar con estudios a nivel 
+                        universitario. Estos estudios son avalados por la Universidad del Istmo.</p>
+                    <button type="submit" class="ov-btn-slide-close">Descubre Más.</button>
+                </div>
+            </div>
+            <div class="card-educacion">
+                <figure>
+                    <img src="images/rediseño/kinalshop.jpg" alt="kinal shop">
+                </figure>
+                <div class="contenido-card">
+                    <h3>Kinal Shop</h3>
+                    <p>La tienda virtual de Centro Educativo, donde se pueden encontrar
+                        prendas y productos totalmente exclusivos.
+                    </p><br><br>
+                    <button type="submit" class="ov-btn-slide-close">Descubre Más.</button>
+                </div>
+            </div>
+        </div>
+        
+        <section class="tarjetas">
+            <br>
+            <div class="centrado-texto"><h1>Jóvenes Beneficiados</h1></div> 
+            <div class="contenedor-cards">
+                <div class="columna">
+                  <div class="card">
+                    <div class="encabezado-card-1">
+                        <h1>25k</h1> 
+                        <span>Escuela Técnica<span>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="encabezado-card-2">
+                        <h1>1500</h1>
+                        <span>Ciclo Básico<span>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="encabezado-card-3">
+                        <h1>5k</h1>
+                        <span>Diversificado<span>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="encabezado-card-4">
+                        <h1>31.5k</h1>
+                        <span>Total</span>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="donar">
+            <img src="images/rediseño/kinalaereo.webp" alt="Fundacion Kinal">
+            <div class="donar-info">
+                <h2>Necesitamos más</h2>
+                <h2 id="color-turquesa">jóvenes de este lado</h2>
+                <br>
+                    <p>Cada donación que haces ayuda a la educación de un joven guatemalteco 
+                        de escasos recursos a tener una educación de calidad.</p><br>
+
+                <button type="submit" class="ov-btn-slide-close">DONAR</button>
+            </div>
+        </div>
+
+        <div class="contenedor-imagen">
+                <img src="images/rediseño/tallermecanica.webp " class="responsive" alt="Fundacion Kinal">
+                <div class="centrado"><h3>Creando Oportunidades</h3></div>
+        </div>
+
+        <section class="partners">
+            <div class="contenedor">
+                <h2 class="titulo">Partners</h2>
+                <div class="galeria-port">
+                    <div class="imagen-port">
+                        <img src="images/rediseño/unis.png" alt="Universidad del Istmo Unis">
+                        <div class="hover-galeria">
+                            <p>Universidad del <br> Istmo</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="images/rediseño/oracleacademy.png" alt="Oracle Academy">
+                        <div class="hover-galeria">
+                            <p>Oracle <br> Academy</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="images/rediseño/honda.png" alt="Honda">
+                        <div class="hover-galeria">
+                            <p>Honda</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="images/rediseño/autodesk.png" alt="Autodesk">
+                        <div class="hover-galeria">
+                            <p>Autodesk</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="images/rediseño/cisco.png" alt="Cisco">
+                        <div class="hover-galeria">
+                            <p>C I S C O</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="images/rediseño/dyned.png" alt="Dyned">
+                        <div class="hover-galeria">
+                            <p>DynEd</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="images/rediseño/ets.png" alt="ets">
+                        <div class="hover-galeria">
+                            <p>TOEFL iBT</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="images/rediseño/vmware.png" alt="vmware">
+                        <div class="hover-galeria">
+                            <p>VMware</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="images/rediseño/pearson.png" alt="Pearson">
+                        <div class="hover-galeria">
+                            <p>Pearson</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="images/rediseño/certiport.png" alt="Certiport">
+                        <div class="hover-galeria">
+                            <p>Certiport</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="images/rediseño/microsoft.png" alt="Microsoft Academy">
+                        <div class="hover-galeria">
+                            <p>Microsoft Imagine <br> Academy</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="images/rediseño/kryterion.png" alt="Kryterion">
+                        <div class="hover-galeria">
+                            <p>Kryterion</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="main-content">
+                <div class="left box">
+                    <h2 >REDISEÑO</h2>
+                    <div class="content">
+                    <p>El rediseño de este sitio web busca implementar más animaciones e
+                        interacción con el usuario, de igual forma trata la manera
+                        de establecer un diseño RESPONSIVE en la mayoría
+                        de elementos con el objetivo de que el contenido
+                        se visualice correctamente en cualquier dispositivo y brindar una 
+                        excelente experiencia a las personas que visite la página web.
+                    </p>
+                    <div class="social">
+                        <a href="https://facebook.com"><span class="fa fa-facebook-f" style="color: white"></span></a>
+                        <a href="https://twitter.com"><span class="fa fa-twitter" style="color: white"></span></a>
+                        <a href="https://instagram.com"><span class="fa fa-instagram" style="color: white"></span></a>
+                        <a href="https://youtube.com"><span class="fa fa-youtube-play" style="color: white"></span></a>
+                    </div>
+                </div>
+            </div>
+      
+            <div id="contacto" class="center box">
+                <h2>Contáctanos</h2>
+                <div class="content">
+                    <div class="email">
+                    <span class="fas fa-envelope"></span>
+                    <span class="text">infoets@kinal.org.gt</span>
+                </div><br>
+                <div class="email">
+                    <span class="fas fa-envelope"></span>
+                    <span class="text">infotic@kinal.org.gt</span>
+                </div><br>
+                <div class="email">
+                    <span class="fas fa-envelope"></span>
+                    <span class="text">infobas@kinal.org.gt<br></span>
+                </div><br>
+                <div class="email">
+                    <span class="fas fa-envelope"></span>
+                    <span class="text">infocet@kinal.org.gt<br></span>
+                </div>
+            </div>
+            </div>
+      
+            <div class="right box">
+                <h2>Escríbenos o Visítanos</h2>
+                <div class="content">
+                    <div class="email">
+                        <span class="fas fa-map-marker-alt"></span>
+                        <span class="text">6 avenida 13-54 zona 7, Colonia</span><br>
+                        <span>Landívar, 01007 Ciudad de Guatemala,</span><br>
+                        <span>Guatemala, C.A.</span>
+                      </div><br>
+                  <form action="#">
+                    <div class="email">
+                      <div class="text">Email *</div>
+                      <input type="email" required>
+                    </div>
+                    <div class="msg">
+                      <div class="text">Mensaje *</div>
+                      <textarea rows="2" cols="25" required></textarea>
+                    </div>
+                    <div class="btn">
+                      <button type="submit">Enviar</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div class="bottom">
+              <center>
+                <span class="credit">Creado por <a>Fundación Kinal</a> | </span>
+                <span class="far fa-copyright"></span><span> 2021 Derechos Reservados.</span>
+              </center>
+            </div>
+        </footer>
+    
+        <!--SCRIPT ANIMACION DE CARGA-->
+        <script>
+            window.onload = function()
+            {
+                    var contenedor = document.getElementById('contenedor-carga');
+                    contenedor.style.visibility = 'hidden';
+                    contenedor.style.opacity = '0';
+            }
+        </script>
+
+        <script type="text/javascript" charset="UTF-8">
+            $(window).load(function() {
+                $('.flexslider').flexslider({
+                touch: true,
+                pauseOnAction: false,
+                pauseOnHover: false,
+                });
+            });
+        </script>
+
+        <!--SCRIPT MENU RESPONSIVE-->
+        <script>
+            $(".hide").on('click', function() {
+            $("nav ul").toggle('slow');
+            })
+        </script>  
+
+        <script src="js/jquery.flexslider.js"></script>
+        <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+    </body>
+</html>

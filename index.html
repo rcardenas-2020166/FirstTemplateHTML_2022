@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Principal | Rodrigo Cárdenas</title>
+    <link rel="shortcut icon" href="images/icons/personal.ico" type="image/x-icon">
+
+    <!-- FONT AWESOME ICONS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- HOJA DE ESTILOS  -->
+    <link rel="stylesheet" href="css/principalCSS.css" type="text/css">
+
+</head>
+
+     
+<body>
+
+    <!-- Contenedor Animacion de Carga -->
+    <div id="contenedor-carga">
+        <div id="carga"></div>
+    </div>
+
+
+    <!-- Creación del NavBar MENÚ  -->
+
+    <nav class="navbar">
+        <a href="index.html"> <i class="fas fa-home"></i> <span>Inicio</span> </a>
+        <a href="gustos.html"> <i class="fas fa-futbol"></i> <span>Mis Gustos</span> </a>
+        <a href="biografia.html"> <i class="fas fa-user"></i> <span>Mi Biografía</span> </a>
+        <a href="kinal.html"> <i class="fas fa-globe"></i> <span>Rediseño Web</span> </a>
+    </nav>
+
+    <section class="index">
+
+        <div class="imagen">
+            <img src="images/MiFoto.JPG" alt="Foto Persona">
+        </div>
+
+        <div class="contenedor">
+            <h3>Hola, mi nombre es</h3>
+            <h3>Rodrigo Cárdenas</h3>
+            <span>Estudiante de Kinal</span>
+            <p>Soy un chico de 19 años al que le apasiona el mundo de la tecnología y el desarrollo web, mis colores favoritos
+                son el negro y el morado.
+            </p>
+            <a href="biografia.html" class="boton"> Sobre Mí <i class="fas fa-user"></i> </a>
+        </div>
+
+    </section>
+
+    <!--SCRIPT ANIMACION DE CARGA-->
+
+    <script>
+        window.onload = function()
+        {
+                var contenedor = document.getElementById('contenedor-carga');
+                contenedor.style.visibility = 'hidden';
+                contenedor.style.opacity = '0';
+        }
+    </script>
+
+
+</body>
+</html>
